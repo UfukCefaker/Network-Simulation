@@ -1,0 +1,22 @@
+21
+MESSAGE C E #A few small hops for frames, but a giant leap for this message.#
+SHOW_Q_INFO C out
+SHOW_FRAME_INFO C out 3
+MESSAGE C E #TAs' PAs = no sleep!#
+SHOW_Q_INFO C out
+SEND
+SHOW_Q_INFO B in
+PRINT_LOG C
+RECEIVE
+SHOW_Q_INFO B out
+SHOW_Q_INFO B in
+SEND
+RECEIVE
+SHOW_Q_INFO B out
+SHOW_Q_INFO B in
+SHOW_Q_INFO D out
+SHOW_Q_INFO D in
+SEND
+RECEIVE
+PRINT_LOG C
+PRINT_LOG E
